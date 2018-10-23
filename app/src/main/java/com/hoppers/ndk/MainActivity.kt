@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         //sample_text.text = stringFromJNI()
     }
 
-    private fun setText(data: Int) {
+     fun setText(data: Int) {
         sample_text.text= sample_text.text.toString().plus("\n").plus(data)
     }
 
